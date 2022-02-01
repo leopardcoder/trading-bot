@@ -22,7 +22,7 @@ average: 0.9792425430465961
 Greater than 0.9%: 14
 Profit: 4.815000000000002 %
 Between: 18
----------------------------------
+----------------------------------
 You should configure how high or low volume of coin should be in order for strategy to send buy request. That should be configured in a scalping.js file too. Also you can check how strategy has been working with different coin volume or different trailing sell configuration.
 3) For scalping bot to run, you should run server and websocket parts. For server to run you should run command at /scalping bot/server.js "node server.js". For websocket to run you should run "node websocket.js". As mentioned above server will listen for requests, and websocket will send requests based on specified volume of coin. In other words - when specified volume per minute is traded bot will place and order. Volume strategy is based on observation and analysis that buying at certain volume is profitable. You can test what volume for what currency is best in a backtesting module. Volume variable should be changed in websocket.js file.
 
