@@ -9,9 +9,9 @@ b) news trading - bot has 30 sec. timer that checks if there is new cryptocoin l
 c) scalping bot - it consists of two parts: a) websocket part gets real time price data of a Binance exchange and sends request to second part b) server, that runs API that listens for requests and places buying orders on a Binance exchange.
 Scalping bot has trailing sell strategy that can be configured in a websocket part, and buying strategy that is based on currency trading volume.
 You should enter variables API_KEY and API_SECRET in .env file for bot be able to place orders on a Binance exchange. Those can be generated in your Binance acount.
-
+_____________________________________________
 Minimum buying price is usualy about 12$. Bot is configured to buy for this amount.  
-
+_____________________________________________
 Three main functionalities of a bot, could be run independently as follows:
 
 1) To run news trading, you should run file /kucoin News/monitorKucoinNews.js with command "node monitorKucoinNews.js";
