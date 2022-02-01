@@ -18,12 +18,19 @@ To get insight of how profitable trading of last six hours was with strategy you
 
 
 ---------------------------------
+
 All trades: 46
+
 Greater than 0: 40
+
 average: 0.9792425430465961
+
 Greater than 0.9%: 14
+
 Profit: 4.815000000000002 %
+
 Between: 18
+
 ----------------------------------
 
 
