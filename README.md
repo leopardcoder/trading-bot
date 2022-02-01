@@ -50,5 +50,5 @@ Node.js (v14.15.4)
 Libraries:
 Ccxt, Nodenv, Express Js
 
-Instaliation:
+Installation:
 npm install
