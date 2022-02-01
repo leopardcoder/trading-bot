@@ -18,7 +18,7 @@ Three main functionalities of a bot, could be run independently as follows:
 
 2) To run backtesting part you should generate cryptocurrencies that are interesting for you. To do that you should update array of coins pairs  mostTradedArray in a /backtesting/scalping/generate.js. After running "node generate.js" samplePairName.json files will be generated of all coins specified. 
 In those files will be objects which will be used in getting Binance exchange data of last six hours for specified coins.
-To get Binance data you should run /backtesting/getCandles.js file and edit data variable inside file - change it to any one generated samplePairName.json. After that you should run "node getCandles.js". That will generated data needed for analysis of coin last six hours profitability.
+To get Binance data you should run /backtesting/getCandles.js file and edit data variable inside file - change it to any one generated samplePairName.json. After that you should run "node getCandles.js". That will generate data needed for analysis of coin.
 To get insight of how profitable trading of last six hours was with strategy you should run "node scalping.js". It will show results as this:
 
 
